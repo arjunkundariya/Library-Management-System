@@ -1,31 +1,38 @@
+# Library Management System
 
-# 📚 Library Management System (DBMS Project)
+## Project Overview
 
-## 📌 Project Overview
+This is a console-based Library Management System developed in C++ using Object-Oriented Programming (OOP) principles. The project simulates core library operations such as book issuing, returning, member registration, fine calculation, and inventory management. It aims to demonstrate modular software design and practical use of file handling for persistent data storage.
 
-This Library Management System is a database-driven application designed to handle core library operations efficiently. The project demonstrates the practical implementation of **Database Management System (DBMS)** concepts and SQL-based data manipulation in combination with a user-friendly interface. It enables smooth tracking and management of books, members, transactions, and fines.
+## Features
 
-## 🛠️ Technologies Used
+- Add, update, and delete book records
+- Register and manage members
+- Issue and return books
+- Calculate fines for late returns
+- Maintain inventory of books
+- Store and retrieve data using file handling (binary and text files)
 
-- **Frontend**:  Java / Python *(specify your language here)*
-- **Database**: MySQL / SQLite *(choose one based on your project)*
-- **Tools**: XAMPP / MySQL Workbench / DBeaver *(mention any tools or IDEs used)*
+## Technologies Used
 
-## 🔍 Key Features
+- Programming Language: java
+- Concepts Applied: 
+  - Object-Oriented Programming (classes, inheritance, encapsulation, polymorphism)
+  - File Handling (fstream, ifstream, ofstream)
+- Platform: Console-based (terminal interface)
 
-- Add, update, and delete **book records**
-- Register new **members** and manage user profiles
-- Handle **book issuing and returning** operations
-- Calculate and update **late return fines**
-- Maintain **transaction logs** for audit and tracking
-- Data persistence using **SQL queries and relational schema**
+## OOP Concepts Implemented
 
-## 🧠 Concepts Implemented
+- **Classes and Objects**: Defined for Books, Members, and Transactions
+- **Inheritance**: Used to structure common behaviors
+- **Encapsulation**: Data members are accessed via public methods
+- **Polymorphism**: Implemented where appropriate for flexibility and extensibility
 
-- Relational Database Design (ER Model → Schema)
-- SQL Queries (DML, DDL, DCL)
-- Normalization (up to 3NF)
-- Joins, Views, Indexes, and Stored Procedures *(if used)*
+## File Handling
 
-## 📂 Project Structure
+- All data is stored persistently using text or binary files
+- File streams are used for reading and writing records
+- Ensures that data remains consistent across sessions
+
+## Folder Structure
 
